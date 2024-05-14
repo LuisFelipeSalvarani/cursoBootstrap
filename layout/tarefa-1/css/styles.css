@@ -1,0 +1,17 @@
+.row {
+    height: 100px;
+    padding: 10px;
+    border: 5px dotted gray;
+}
+
+.row .col-3 {
+    border: 2px solid black;
+}
+
+.row .col-3:nth-child(even) {
+    background-color: crimson;
+}
+
+.row .col-3:nth-child(odd) {
+    background-color: teal;
+}
