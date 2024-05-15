@@ -1,0 +1,35 @@
+.col-12 {
+    padding: 15px;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-12 i {
+    margin-right: 15px;
+    font-size: 30px;
+}
+.confirmation {
+    border: 1px solid teal;
+}
+
+.confirmation i {
+    color: teal;
+}
+
+.alert {
+    border: 1px solid crimson;
+}
+
+.alert i {
+    color: crimson;
+}
+
+.bluetooth {
+    border: 1px solid springgreen;
+}
+
+.bluetooth i {
+    color: springgreen;
+}
