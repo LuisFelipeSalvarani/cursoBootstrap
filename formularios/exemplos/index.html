@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link Bootstrap -->
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Formulários</title>
+</head>
+<body>
+    
+    <!-- Criando form -->
+
+    <div class="col-4 m-4">
+        <h2>Formulário de Registro</h2>
+        <form action="">
+            <div class="mb-4">
+                <label for="email" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Insira seu e-mail">
+                <div id="emailHelp" class="form-text">Não compartilhamos seu endereço de e-mail</div>
+            </div>
+            <div class="mb-4">
+                <label for="password" class="form-label">Senha:</label>
+                <input type="password" class="form-control" id="password" name="password" placeholder="Digite sua senha">
+            </div>
+            <!-- <input type="submit" class="btn btn-primary" value="Cadastrar"> -->
+            <button type="submit" class="btn btn-primary">Cadastrar</button>
+        </form>
+    </div>
+
+    <!-- Form desabilitado -->
+    
+    <div class="col-4 m-4">
+        <h2>Formulário Desabilitado</h2>
+        <form action="">
+            <fieldset disabled>
+                <div class="mb-4">
+                    <label for="email" class="form-label">E-mail</label>
+                    <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Insira seu e-mail">
+                    <div id="emailHelp" class="form-text">Não compartilhamos seu endereço de e-mail</div>
+                </div>
+                <div class="mb-4">
+                    <label for="password" class="form-label">Senha:</label>
+                    <input type="password" class="form-control" id="password" name="password" placeholder="Digite sua senha">
+                </div>
+                <!-- <input type="submit" class="btn btn-primary" value="Cadastrar"> -->
+                <button type="submit" class="btn btn-primary">Cadastrar</button>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
