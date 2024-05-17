@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Link Bootstrap -->
     <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js" defer></script>
     <!-- Link CSS -->
     <link rel="stylesheet" href="css/styles.css">
     <title>Formulários</title>
@@ -126,6 +127,25 @@
             <div class="mb-4">
                 <label for="fotos2" class="form-label">Input file desabilitado:</label>
                 <input type="file" class="form-control" id="fotos2" disabled>
+            </div>
+        </form>
+    </div>
+
+    <!-- Outros elementos -->
+
+    <div class="col-4 m-4">
+        <h2>Outros inputs</h2>
+        <form action="">
+            <!-- Data list -->
+            <div class="mb-4">
+                <label for="cidades" class="form-label">Selecione uma cidade</label>
+                <input class="form-control" list="datalistOptions" id="cidades" placeholder="Busque a sua cidade...">
+                <datalist id="datalistOptions">
+                    <option value="São Paulo">
+                    <option value="Rio de Janeiro">
+                    <option value="Florianópolis">
+                    <option value="Porto Alegre">
+                </datalist>
             </div>
         </form>
     </div>
