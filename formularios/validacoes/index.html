@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link Bootstrap -->
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js" defer></script>
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Link JS -->
+    <script src="js/script.js" defer></script>
+    <title>Validações</title>
+</head>
+<body>
+    
+    <!-- Validação Bootstrap -->
+
+    <div class="container">
+        <div class="row justify-content-center m-4">
+            <div class="col-6">
+                <h2>Faça o login para continuar:</h2>
+                <form action="" class="row needs-validation" novalidate>
+                    <div class="col-12 mb-4">
+                        <label for="email" class="form-label">E-mail:</label>
+                        <input type="email" id="email" class="form-control" placeholder="Digite o seu e-mail" required>
+                        <div class="valid-feedback">
+                            Ok
+                        </div>
+                    </div>
+                    <div class="col-12 mb-4">
+                        <label for="password" class="form-label">Senha:</label>
+                        <input type="password" id="password" class="form-control" placeholder="Digite a sua senha" required>
+                        <div class="valid-feedback">
+                            Ok
+                        </div>
+                    </div>
+                    <div class="col-12 mb-4">
+                        <button type="submit" class="btn btn-primary">Entrar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>
