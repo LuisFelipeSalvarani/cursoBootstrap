@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Componentes</title>
+    <!-- CSS Bootstrap -->
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- JS Bootstrap -->
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
+</head>
+<body>
+    
+    <!-- Accordion -->
+
+    <div class="col-4 m-4">
+        <h2>Accordion</h2>
+        <div class="accordion" id="accordion">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Item 1</button>
+                </h2>
+                <div class="accordion-collapse collapse show" id="collapseOne" aria-labelledby="headingOne" data-bs-parent="#accordion">
+                    <div class="accordion-body">
+                        <p>Este é o item 1 e sua descrição</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">Item 2</button>
+                </h2>
+                <div class="accordion-collapse collapse" id="collapseTwo" aria-labelledby="headingTwo" data-bs-parent="#accordion">
+                    <div class="accordion-body">
+                        <p>Este é o item 2 e sua descrição</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">Item 3</button>
+                </h2>
+                <div class="accordion-collapse collapse" id="collapseThree" aria-labelledby="headingThree" data-bs-parent="#accordion">
+                    <div class="accordion-body">
+                        <p>Este é o item 3 e sua descrição</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
