@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="css/styles.css">
     <!-- JS Bootstrap -->
     <script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
+    <!-- JS -->
+    <script src="js/scripts.js" defer></script>
 </head>
 <body>
 
@@ -82,7 +84,7 @@
         </div>
     </div>
 
-    <!-- Páginação -->
+    <!-- Paginação -->
 
     <div class="container mb-4">
         <nav aria-label="Page navigation">
@@ -94,6 +96,15 @@
                 <li class="page-item"><a href="#" class="page-link">Próxima</a></li>
             </ul>
         </nav>
+    </div>
+
+    <!-- Popover -->
+
+    <div class="container mb-4">
+        <button type="button" class="btn btn-lg btn-success" data-bs-toggle="popover" title="Este é o título" data-bs-content="E aqui podemos inserir a descrição">Clique aqui!</button>
+    </div>
+    <div class="container mb-4">
+        <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Este é o título 2" data-bs-content="E aqui podemos inserir a descrição 2">Clique aqui!</button>
     </div>
 </body>
 </html>
