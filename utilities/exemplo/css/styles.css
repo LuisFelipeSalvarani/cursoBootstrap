@@ -10,6 +10,11 @@ body {
     height: 500px;
 }
 
-.box {
+.box,
+.box-com-wrap {
     border: 1px solid red;
+}
+
+.box-com-wrap {
+    width: 50px;
 }
